@@ -1,5 +1,5 @@
 {
-  "name": "jadoo",
+  "name": "paxdefender",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -26,12 +26,12 @@
   "overrides": {
     "vue": "latest"
   },
-  "description": "Jadoo is a travel agency landing page built with Nuxt 3",
+  "description": "PaxDefender is a travel agency landing page built with Nuxt 3",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevHumbleChris/jadoo.git"
+    "url": "git+https://github.com/DevHumbleChris/paxdefender.git"
   },
   "keywords": [
     "travel",
@@ -44,7 +44,7 @@
   "author": "AmChrisKE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DevHumbleChris/jadoo/issues"
+    "url": "https://github.com/DevHumbleChris/paxdefender/issues"
   },
-  "homepage": "https://github.com/DevHumbleChris/jadoo#readme"
+  "homepage": "https://github.com/DevHumbleChris/paxdefender#readme"
 }

@@ -1,17 +1,16 @@
 <template>
-  <footer class="p-5 sm:px-16 sm:py-6 mt-12">
+  <footer class="p-5 sm:px-16 sm:py-6 mt-12 bg-[#F7F7F7] w-full shadow-xl">
+    <!-- sm:p-0 space-y-4 sm:space-y-0 sm:grid sm:grid-cols-10 gap-20 md:gap-12 lg:gap-20 -->
     <div
-      class="w-full text-center p-12 sm:p-0 space-y-4 sm:space-y-0 sm:grid sm:grid-cols-10 gap-20 md:gap-12 lg:gap-20"
+      class="w-full text-center p-12 flex flex-col items-center justify-center space-y-4"
     >
       <div class="col-span-2 space-y-3">
-        <NuxtLink to="/" class="text-[#181E4B] font-medium text-5xl"
-          >Jadoo.</NuxtLink
-        >
+        <Logo :width="400" :height="100" />
         <p class="text-[#080809] text-xs font-light">
-          Book your trip in minute, get full Control for much longer.
+          PaxDefender© 2025 All rights reserved.
         </p>
       </div>
-      <div class="col-span-6 grid grid-cols-1 sm:grid-cols-6">
+      <!-- <div class="col-span-6 grid grid-cols-1 sm:grid-cols-6">
         <div class="col-span-2 space-y-4">
           <p class="font-bold text-lg">Company</p>
           <div class="space-y-2">
@@ -183,15 +182,15 @@
             />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <p class="text-center text-xs text-[#5E6282] mb-8 sm:mt-8">
+    <!-- <p class="text-center text-xs text-[#5E6282] mb-8 sm:mt-8">
       Made with 🥰🤗,
       <NuxtLink
         to="https://the-coding-montana.vercel.app"
         class="text-indigo-600"
         >The Coding Montana</NuxtLink
       >
-    </p>
+    </p> -->
   </footer>
 </template>

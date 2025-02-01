@@ -8,15 +8,15 @@ import Header from "./Header.vue";
     <section class="w-full grid grid-cols-1 md:grid-cols-2 items-center p-5 sm:p-20 my-2">
       <div class="space-y-3">
         <p class="uppercase font-poppins text-sm text-[#DF6951] font-bold">
-          Best Destinations around the world
+          Transforme Seus Problemas de Voo em Compensação Financeira
         </p>
         <div
           class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]"
         >
           <div class="flex space-x-3">
-            <div>Travel,</div>
+            <div>Até</div>
             <div class="relative">
-              enjoy
+              600€ de
               <svg
                 class="absolute bottom-0 -left-4 w-44 sm:w-80"
                 viewBox="0 0 385 12"
@@ -43,18 +43,16 @@ import Header from "./Header.vue";
               </svg>
             </div>
           </div>
-          <div>and live a new and full life</div>
+          <div>Compensações</div>
         </div>
         <p class="font-poppins text-gray-500 text-sm">
-          Built Wicket longer admire do barton vanity itself do in it. Preferred
-          to sportsmen it engrossed listening. Park gate sell they west hard for
-          the.
+          Se o seu voo foi atrasado, cancelado ou sofreu overbooking, pode ter direito a compensação. A PaxDefender recupera o que é seu, sem custos iniciais até recebermos sua indenização.
         </p>
         <div class="flex items-center space-x-3">
-          <button type="button" aria-label="Find out more"
+          <button type="button" aria-label="Reivindicar Indemnização"
             class="block bg-[#F1A501] text-white p-3 text-sm font-poppins rounded-md"
           >
-            Find out more
+            Reivindicar Indemnização
           </button>
           <button type="button" aria-label="Play demo" class="font-poppins flex mt-5">
             <svg
@@ -107,7 +105,7 @@ import Header from "./Header.vue";
                 </filter>
               </defs>
             </svg>
-            <p class="mt-5">Play Demo</p>
+            <p class="mt-5">Calcule Sua Compensação</p>
           </button>
         </div>
       </div>

@@ -65,45 +65,194 @@
 
       <div class="space-y-12 px-12 py-28 sm:p-28">
         <p class="text-[#5E6282] font-semibold text-xl sm:text-3xl text-center">
-          Subscribe to get information, latest news and other interesting offers
-          about Jadoo
+          Não Deixe o Seu Dinheiro na Mão das Companhias Aéreas, Preencha o
+          Formulário e Peça Sua Indenização
         </p>
-        <div
-          class="flex flex-col sm:flex-row items-center justify-center gap-4 z-20"
-        >
-          <div
-            class="bg-white px-6 py-3 flex space-x-3 items-center rounded-lg z-40"
-          >
-            <svg
-              width="21"
-              height="18"
-              viewBox="0 0 21 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4 6L9.4 10.05C9.75556 10.3167 10.2444 10.3167 10.6 10.05L16 6"
-                stroke="#39425D"
-                stroke-linecap="round"
-              />
-              <rect
-                x="0.5"
-                y="0.5"
-                width="20"
-                height="17"
-                rx="4.5"
-                stroke="#39425D"
-              />
-            </svg>
-            <input
-              type="text"
-              placeholder="Your email"
-              class="bg-transparent border-0 outline-none w-full"
-            />
-          </div>
-          <button class="block bg-[#FF946D] text-white px-6 py-3 rounded-lg">
-            Subscribe
-          </button>
+        <div class="w-full mx-auto p-6">
+          <form class="space-y-6">
+            <div class="bg-white px-6 py-8 rounded-lg shadow-lg w-full">
+              <!-- Ícone de Email -->
+              <svg
+                class="w-6 h-6 text-gray-600 mb-6"
+                viewBox="0 0 21 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 6L9.4 10.05C9.75556 10.3167 10.2444 10.3167 10.6 10.05L16 6"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+                <rect
+                  x="0.5"
+                  y="0.5"
+                  width="20"
+                  height="17"
+                  rx="4.5"
+                  stroke="currentColor"
+                />
+              </svg>
+
+              <!-- Campos do Formulário -->
+              <div class="space-y-4">
+                <!-- Nome Completo -->
+                <div>
+                  <label
+                    for="fullName"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Nome Completo *
+                  </label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    required
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
+                </div>
+
+                <!-- Telefone -->
+                <div>
+                  <label
+                    for="phone"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Telefone *
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    required
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
+                </div>
+
+                <!-- Email -->
+                <div>
+                  <label
+                    for="email"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Email *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    required
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
+                </div>
+
+                <!-- Status do Voo -->
+                <div>
+                  <label
+                    for="flightStatus"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    O seu voo foi
+                  </label>
+                  <select
+                    id="flightStatus"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  >
+                    <option value="cancelled">Cancelado</option>
+                    <option value="delayed">Atrasado</option>
+                    <option value="overbooked">Sobrelotado</option>
+                  </select>
+                </div>
+
+                <!-- Upload do Cartão de Embarque -->
+                <div>
+                  <label
+                    for="boardingPass"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Faça upload do Cartão de Embarque
+                  </label>
+                  <input
+                    type="file"
+                    id="boardingPass"
+                    accept=".pdf,.jpg,.jpeg,.png"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  />
+                </div>
+
+                <!-- Informação da Companhia Aérea -->
+                <div>
+                  <label
+                    for="airlineInfo"
+                    class="block text-sm font-medium text-gray-700 mb-1"
+                  >
+                    Que informação recebeu da companhia aérea?
+                  </label>
+                  <textarea
+                    id="airlineInfo"
+                    rows="4"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  ></textarea>
+                </div>
+
+                <!-- Checkboxes -->
+                <div class="space-y-3">
+                  <!-- Confirmação de Idade -->
+                  <div class="flex items-start">
+                    <input
+                      type="checkbox"
+                      id="isAdult"
+                      class="mt-1 h-4 w-4 text-orange-500 focus:ring-orange-500 border-gray-300 rounded"
+                    />
+                    <label for="isAdult" class="ml-2 text-sm text-gray-700">
+                      Confirmo que sou maior de idade (conforme a legislação em
+                      vigor no meu país de residência).
+                    </label>
+                  </div>
+
+                  <!-- Termos e Condições -->
+                  <div class="flex items-start">
+                    <input
+                      type="checkbox"
+                      id="acceptsTerms"
+                      class="mt-1 h-4 w-4 text-orange-500 focus:ring-orange-500 border-gray-300 rounded"
+                    />
+                    <label
+                      for="acceptsTerms"
+                      class="ml-2 text-sm text-gray-700"
+                    >
+                      Li e aceito os termos presentes nos Termos e Condições de
+                      Utilização e na Política de Privacidade.
+                    </label>
+                  </div>
+
+                  <!-- Autorização -->
+                  <div class="flex items-start">
+                    <input
+                      type="checkbox"
+                      id="authorizesCheck"
+                      class="mt-1 h-4 w-4 text-orange-500 focus:ring-orange-500 border-gray-300 rounded"
+                    />
+                    <label
+                      for="authorizesCheck"
+                      class="ml-2 text-sm text-gray-700"
+                    >
+                      Autorizo a PaxDefender a verificar o direito à
+                      indemnização e, em caso positivo, a iniciar as diligências
+                      necessárias junto da companhia aérea.
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botão de Envio -->
+            <div class="flex justify-end">
+              <button
+                type="submit"
+                class="bg-[#FF946D] text-white px-6 py-3 rounded-lg hover:bg-[#ff8555] transition-colors duration-200"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <svg

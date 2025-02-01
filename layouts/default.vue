@@ -5,15 +5,15 @@ useHead({
     lang: 'en',
   },
   meta: [
-    { property: 'og:title', content: `Jadoo` },
-    { name: 'description', content: 'Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
-    { property: 'og:description', content: 'Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
-    { property: 'og:url', content: 'https://jadoo-ke.vercel.app/' },
-    { name: 'twitter:title', content: 'Jadoo' },
-    { name: 'twitter:description', content: 'Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
-    { name: 'twitter:site', content: 'https://jadoo-ke.vercel.app/' }
+    { property: 'og:title', content: `PaxDefender` },
+    { name: 'description', content: 'PaxDefender is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
+    { property: 'og:description', content: 'PaxDefender is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
+    { property: 'og:url', content: 'https://paxdefender-ke.vercel.app/' },
+    { name: 'twitter:title', content: 'PaxDefender' },
+    { name: 'twitter:description', content: 'PaxDefender is a travel agency landing page built with Nuxt 3 and TailwindCSS.' },
+    { name: 'twitter:site', content: 'https://paxdefender-ke.vercel.app/' }
   ],
-  title: `Jadoo`,
+  title: `PaxDefender`,
 })
 </script>
 

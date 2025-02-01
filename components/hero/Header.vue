@@ -19,7 +19,7 @@ const mobileMenuOpen = ref(false);
         <li><NuxtLink to="#">Flights</NuxtLink></li>
         <li><NuxtLink to="#">Bookings</NuxtLink></li>
       </ul>
-      <ul class="flex items-center space-x-8">
+      <!-- <ul class="flex items-center space-x-8">
         <li><NuxtLink to="#">Login</NuxtLink></li>
         <li>
           <NuxtLink to="#" class="border-2 rounded-lg px-3 py-2 border-gray-900"
@@ -32,7 +32,7 @@ const mobileMenuOpen = ref(false);
             <option value="FRA">FRA</option>
           </select>
         </li>
-      </ul>
+      </ul> -->
     </div>
     <button class="lg:hidden block" @click="mobileMenuOpen = true" aria-label="hamburger-button">
       <Icon name="icon-park-outline:hamburger-button" class="w-6 h-auto" />
@@ -50,7 +50,7 @@ const mobileMenuOpen = ref(false);
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Jadoo</span>
+            <span class="sr-only">PaxDefender</span>
             <Logo />
           </a>
           <button
@@ -87,7 +87,7 @@ const mobileMenuOpen = ref(false);
                 >Bookings</NuxtLink
               >
             </div>
-            <div class="py-6 space-y-4">
+            <!-- <div class="py-6 space-y-4">
               <NuxtLink
                 to="#"
                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -104,7 +104,7 @@ const mobileMenuOpen = ref(false);
                 <option value="EN" selected>EN</option>
                 <option value="FRA">FRA</option>
               </select>
-            </div>
+            </div> -->
           </div>
         </div>
       </DialogPanel>
