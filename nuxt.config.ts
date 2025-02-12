@@ -1,12 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     "nuxt-icon",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "nuxt-headlessui",
   ],
+
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     config: {
@@ -21,4 +23,6 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  compatibilityDate: '2025-02-11',
 });
